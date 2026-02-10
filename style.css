@@ -36,9 +36,15 @@ body {
 .hero {
     text-align: center;
     padding: 120px 20px;
-    background: linear-gradient(rgba(45, 90, 39, 0.8), rgba(45, 90, 39, 0.8)), 
-                url('https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&q=80') center/cover;
+    /* Update the url below to your filename */
+    background: linear-gradient(rgba(45, 90, 39, 0.7), rgba(45, 90, 39, 0.7)), 
+                url('GreenSense.jpg') center/cover no-repeat;
     color: white;
+    min-height: 60vh; /* This ensures the hero is tall enough to see the image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero h1 { font-size: 3rem; margin-bottom: 20px; }
